@@ -1,0 +1,45 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+	display: block;
+	background-color: tomato;
+	height: 60px;
+}
+
+li{
+	float: left;
+	list-style: none;
+	display: flex;
+	height:60px;
+	padding: 5px 10px;
+	transition:  ease-in-out background-color 400ms ,transform 300ms, border-top 350ms;	
+}
+ul{
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	margin: auto;	
+	color: white;
+	transition:  ease-in-out color 1000ms;
+	transition:  ease-in-out font-size 400ms;
+}
+.buttons {
+	float: right;
+}
+
+.buttons li:hover{	
+	background-color: black;
+	color: yellow;
+	transform: translate(0px,0px);
+	border-top: 3px solid  yellow;
+	height:62px;
+}
+

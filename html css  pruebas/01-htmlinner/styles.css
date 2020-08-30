@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+table{
+    width: 100%;    
+    padding: 40px;
+}
+th{
+    background-color: rgba(3,3,200,0.4);
+    border-style: solid rgba(3,3,244,0.1);
+}
+td{
+    border-bottom: solid rgba(3,3,240,0.4);
+    background-color: rgba(3,3,200,0.03);
+}
+tr{
+    border-collapse: collapse;
+}
